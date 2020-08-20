@@ -1,12 +1,11 @@
 import pyttsx3 as p
 import os
 import time
-import subprocess as sp
 def fun(a):
     import pyttsx3 as p
     time.sleep(2)
     p.speak(a+"Opened")
-    p.speak("Hope you are satisfied \n and \n Hope ! this python program helped you!")
+    p.speak("Hope you are satisfied \n and  Hope! this python program helped you!")
     print("\nThank You!")
 
 p.speak(" Welcome to Program for opening the Os ")
